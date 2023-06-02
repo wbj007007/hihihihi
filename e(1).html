@@ -6,9 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
+      :root {
+        --ww: #00c680;
+        --a: 100px;
+        /* --b: 1; */
+      }
+      .ra {
+        width: calc(var(--a));
+        height: calc(var(--a));
+        background: var(--ww);
+        transform: rotate((var(--b)) * 45deg);
+      }
       p {
         font-size: 100px;
-        color: rgb(255, 0, 0);
+        color: var(--ww);
         animation: move 20s linear infinite;
         /* width: 100%; */
         width: 1920px;
@@ -62,8 +73,14 @@
   </head>
 
   <body>
+    <div></div>
+    <div></div>
+    <div class="ra" style="--b: 1"></div>
     <button>0</button>
     <div>
+      <p>
+        哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈
+      </p>
       <p>
         哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈
       </p>
